@@ -1,4 +1,4 @@
-const API_URL = "https://my-json-server.typicode.com/fedegaray/telefonos/db"
+const API_URL = "https://my-json-server.typicode.com/fedegaray/telefonos/db/"
 const containerPhoneInfo = document.getElementById('container-phone-info')
 const phoneInfo = document.getElementById('phone-info')
 
@@ -14,7 +14,7 @@ async function getData() {
             })
 
         if (!response.ok) {
-            throw new Error("Problemas al cargar la información", response.statusText)
+            throw new Error(`Problemas al cargar la información ${response.statusText}`)
         }
 
         const data = await response.json()
@@ -39,4 +39,25 @@ async function getData() {
         console.error("Problemas al cargar la información", error)
     }
 }
+
+// Leer documento por ID
+async function searchID(id) {
+    try {
+        const response = await fetch(`https://my-json-server.typicode.com/fedegaray/telefonos/dispositivos/${id}`)
+        // console.log(response)
+
+        if (!response.ok) {
+            throw new Error(`Problemas al cargar la información ${response.statusText}`)
+        }
+
+        const infoId = await response.json()
+        console.table(infoId)
+        return infoId;
+
+    } catch (error) {
+        console.log("El ID ingresado no esta registrado: ", error)
+    }
+}
+searchID(1)
+
 document.addEventListener('DOMContentLoaded', getData)

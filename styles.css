@@ -40,7 +40,7 @@ main{
     margin: 0 auto;
 }
 
-table{
+table.container-phones{
     width: 100%;
     thead{
         background-color:#314158;
@@ -64,5 +64,28 @@ table{
                 padding: 0.8rem;
             }
         }
+    }
+}
+
+section.search-id{
+    margin: 4rem auto;
+    h2{ 
+        font-size: 2rem;
+        margin-bottom: 1.2rem;
+    }
+    #input-search-id{
+        border-radius: 2rem;
+        padding: .8rem 1.2rem;
+        border: 0.1rem solid #314158;
+        font-size: 1.4rem;
+    }
+    button.search-id-btn{
+        padding: .8rem 1.2rem;
+        border-radius: 2rem;
+        font-size: 1.4rem;
+        border: 0.1rem solid #314158;
+        color: #f8fafc;
+        background-color: #314158;
+        cursor: pointer;
     }
 }
