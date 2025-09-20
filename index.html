@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Phone<span>Store</span></h1>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Marca</th>
+                    <th>Modelo</th>
+                    <th>Color</th>
+                    <th>Almacenamiento</th>
+                    <th>Procesador</th>
+                </tr>
+            </thead>
+            <tbody id="container-phone-info">
+                <template id="phone-info">
+                    <tr>
+                        <td class="id"></td>
+                        <td class="marca"></td>
+                        <td class="modelo"></td>
+                        <td class="color"></td>
+                        <td class="almacenamiento"></td>
+                        <td class="procesador"></td>
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
