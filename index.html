@@ -37,11 +37,71 @@
                 </template>
             </tbody>
         </table>
-        <section class="search-id">
-            <h2>Consulta por ID</h2>
-            <input type="number" name="" id="input-search-id" placeholder="Ingresa el ID">
-            <button class="search-id-btn" type="button">Buscar</button>
-        </section>
+        <div class="container-forms">
+            <section class="search-id">
+                <h2>Consulta por ID</h2>
+                <input type="text" name="" id="input-search-id" placeholder="Ingresa el ID">
+                <button id="button-search-id" type="button">Buscar</button>
+                <div class="search-id-info">
+                    <form action="" class="search-form">
+                        <label>
+                            Marca:
+                            <input type="text" id="input-marca-search">
+                        </label>
+                        <label>
+                            Modelo:
+                            <input type="text" id="input-search-modelo">
+                        </label>
+                        <label>
+                            Color:
+                            <input type="text" id="input-search-color">
+                        </label>
+                        <label>
+                            Almacenamiento:
+                            <input type="text" id="input-search-almacenamiento">
+                        </label>
+                        <label>
+                            Procesador:
+                            <input type="text" id="input-search-procesador">
+                        </label>
+                        <div class="form-actions">
+                            <button id="button-update" type="submit">Modificar</button>
+                            <button id="button-delete" type="button">Eliminar</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section class="add-article">
+                <h2>Agregar nuevo artículo</h2>
+                <div class="add-article-info">
+                    <form action=""" class=" add-article-form">
+                        <label>
+                            Marca:
+                            <input type="text" id="input-add-marca">
+                        </label>
+                        <label>
+                            Modelo:
+                            <input type="text" id="input-add-modelo">
+                        </label>
+                        <label>
+                            Color:
+                            <input type="text" id="input-add-color">
+                        </label>
+                        <label>
+                            Almacenamiento:
+                            <input type="text" id="input-add-almacenamiento">
+                        </label>
+                        <label>
+                            Procesador:
+                            <input type="text" id="input-add-procesador">
+                        </label>
+                        <div class="form-actions">
+                            <button id="button-add" type="submit">Agregar</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
     </main>
     <script src="main.js"></script>
 </body>

@@ -1,0 +1,84 @@
+{
+    "dispositivos": [
+        {
+            "id": 1,
+            "marca": "Apple",
+            "modelo": "iPhone 13",
+            "color": "Azul",
+            "almacenamiento": "128GB",
+            "procesador": "A15 Bionic"
+        },
+        {
+            "id": 2,
+            "marca": "Samsung",
+            "modelo": "Galaxy S22",
+            "color": "Negro",
+            "almacenamiento": "256GB",
+            "procesador": "Exynos 2200"
+        },
+        {
+            "id": 3,
+            "marca": "Google",
+            "modelo": "Pixel 6",
+            "color": "Blanco",
+            "almacenamiento": "128GB",
+            "procesador": "Google Tensor"
+        },
+        {
+            "id": 4,
+            "marca": "OnePlus",
+            "modelo": "OnePlus 10",
+            "color": "Verde",
+            "almacenamiento": "256GB",
+            "procesador": "Snapdragon 8cx Gen 3"
+        },
+        {
+            "id": 5,
+            "marca": "Xiaomi",
+            "modelo": "Mi 12",
+            "color": "Gris",
+            "almacenamiento": "128GB",
+            "procesador": "Snapdragon 8cx Gen 3"
+        },
+        {
+            "id": 6,
+            "marca": "Huawei",
+            "modelo": "P50 Pro",
+            "color": "Rosa",
+            "almacenamiento": "256GB",
+            "procesador": "Kirin 9000"
+        },
+        {
+            "id": 7,
+            "marca": "Sony",
+            "modelo": "Xperia 5 III",
+            "color": "Negro",
+            "almacenamiento": "128GB",
+            "procesador": "Snapdragon 888"
+        },
+        {
+            "id": 8,
+            "marca": "LG",
+            "modelo": "Velvet 2",
+            "color": "Blanco",
+            "almacenamiento": "128GB",
+            "procesador": "Snapdragon 765G"
+        },
+        {
+            "id": 9,
+            "marca": "Motorola",
+            "modelo": "Moto G100",
+            "color": "Azul",
+            "almacenamiento": "128GB",
+            "procesador": "Snapdragon 870"
+        },
+        {
+            "id": 10,
+            "marca": "Nokia",
+            "modelo": "Nokia 9.3 PureView",
+            "color": "Verde",
+            "almacenamiento": "256GB",
+            "procesador": "Snapdragon 888"
+        }
+    ]
+}

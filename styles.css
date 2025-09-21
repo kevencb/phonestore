@@ -67,25 +67,76 @@ table.container-phones{
     }
 }
 
-section.search-id{
-    margin: 4rem auto;
+div.container-forms{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8rem;
+}
+
+section.search-id,
+section.add-article{
+    margin: 4rem 0;
     h2{ 
         font-size: 2rem;
         margin-bottom: 1.2rem;
     }
-    #input-search-id{
-        border-radius: 2rem;
-        padding: .8rem 1.2rem;
+    input#input-search-id{
+        border-radius: 0.8rem;
+        padding: 1.2rem;
         border: 0.1rem solid #314158;
         font-size: 1.4rem;
     }
-    button.search-id-btn{
-        padding: .8rem 1.2rem;
-        border-radius: 2rem;
+    button#button-search-id{
+        padding: 1.2rem 4rem;
+        border-radius: 0.8rem;
         font-size: 1.4rem;
         border: 0.1rem solid #314158;
         color: #f8fafc;
         background-color: #314158;
         cursor: pointer;
+    }
+    form.search-form,
+    form.add-article-form{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 2rem;
+        gap: 1.2rem;
+        label{
+            display: flex;
+            flex-direction: column;
+            font-size: 1.2rem;
+            gap: 0.4rem;
+        }
+        input{
+            padding: 1.2rem;
+            border-radius: 0.8rem;
+            border: 0.1rem solid #314158;
+        }
+    }
+    div.form-actions{
+        display: flex;
+        gap: 0.8rem;
+        justify-content: flex-end;
+        button{
+            width: 50%;
+            padding: 1.2rem;
+            border: none;
+            color: #f8fafc;
+            border-radius: .8rem;
+            font-size: 1.4rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        #button-update{
+            background-color: #45556c;
+        }
+        #button-delete{
+            background-color: #ec003f;
+        }
+        #button-add{
+            background-color: #45556c;
+        }
     }
 }
